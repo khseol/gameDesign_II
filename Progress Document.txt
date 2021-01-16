@@ -1,0 +1,34 @@
+11/08/2020
+I created the sprites for my capstone project
+This included the character, enemies, and the background+platforms that the player will
+	use to interact with the environment
+I was also able to find free assets to use from the unity assest store. Proper credit and recognition is and will
+	be noted in the README txt document if and when they are used for this project.
+
+11/10/2020
+Using the sprites created, I started to work on designing the first level of my capstone game.
+To be able to show a sense of perspective for this highly retro and shoddy artistic side-scrolling run game
+I was able to code the parallax effect by manipulating the layers of the background plus using code to
+manipulate the horizontal movement position in relation to the position of the main Camera.
+Similar levels will follow suite in the parallax effect of their level design, and will most likely
+make use of the free assets acquired through the unity asset store for better visuals.
+
+11/12/2020
+
+I have set up a simple level design for the cave level to test layers and movement of the player.
+There were issues with the player game object interacting with the tilemap system, but i figured out that a tilemap collision
+was needed to prevent the character from falling through the ground.
+I have also set it up so that the camera moves with the player instead of the manual testing as long as the 
+player is within center view of the camera
+
+Today, i completed the basic movement of the character of right left and jump.
+i made sure that to enable the double jump, i put a counter to ensure the number of times to call the jump function, and a reset when the player
+collides with any object tagged with 'grounded' to ensure that the proper objects are collided to enable double jump.
+
+i was able to create a tile set and will surely need to modify the tiles so that they can be fully intergrated in the game for a smoother
+level dsign.
+
+Few things i will need to work on will be to fix the player movement and parallax effect so that they work as smoothly as possible when i
+continue to work on the rest of my level design works.
+link to help remind and clean up my work:
+https://www.youtube.com/watch?v=wBol2xzxCOU
